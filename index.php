@@ -37,6 +37,11 @@
 
         // verify data is correct
         var_dump($response);
+
+        // if you have a ""timeout-or-duplicate" error, please read this documentation
+        // https://stackoverflow.com/questions/55308499/i-got-timeout-or-duplicate-error-using-recaptcha-v3#:~:text=As%20stated%20in%20the%20documentation,log%2C%20local%20file%2C%20whatever)
+        //  Every time the pages loads, you get a new google token
+        // https://developers.google.com/recaptcha/docs/verify?hl=en
     }
 ?>
 
