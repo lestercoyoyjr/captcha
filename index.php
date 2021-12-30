@@ -7,7 +7,7 @@
 		$captcha = $_POST['g-recaptcha-response'];
 
         // $secret = 'aqui va la clave secreta';
-        $secret = "6LdLms4dAAAAAIclRzFZXvMEuF698iPASlG9GYfl";
+        $secret = "secret link goes here";
 
         // to verify the captcha is correct
         if(!$captcha){
